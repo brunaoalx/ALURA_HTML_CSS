@@ -30,6 +30,11 @@ nav a {
 
 }
 
+nav a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -48,9 +53,23 @@ nav a {
     border-radius: 10px;
 }   
 
+.produtos li:hover{
+    border-color: cornflowerblue;
+}
+
+.produtos li:active{
+
+    border-color: aqua;
+
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produto-descricao{
